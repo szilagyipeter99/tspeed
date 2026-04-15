@@ -1,0 +1,22 @@
+.anim1 {
+  transform: translateY(-3px);
+  transition: 1s 0.25s;
+}
+
+.anim2 {
+  opacity: 0;
+  transform: translateX(-3px);
+  transition: 0.75s 0.25s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
+@media (prefers-reduced-motion) {
+  .anim1,
+  .anim2 {
+    transition: none;
+  }
+}

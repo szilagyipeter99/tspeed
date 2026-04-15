@@ -1,0 +1,78 @@
+#services {
+  margin-bottom: 8rem;
+}
+
+#services h2 {
+  margin-bottom: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#services h2 span {
+  color: var(--blue-800);
+}
+
+.services__row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 1400px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.services__card {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  max-width: 375px;
+  padding: 4rem 2.5rem;
+  border-radius: 1rem;
+  /* background-image: url("/img/man.jpeg"); */
+  background-size: cover;
+  background-position: center;
+}
+
+.services__card:nth-child(1) {
+  background-image: url("/img/man2.jpeg");
+}
+
+.services__card:nth-child(2) {
+  background-image: url("/img/man.webp");
+}
+
+.services__card:nth-child(3) {
+  background-image: url("/img/man3.jpg");
+}
+
+.services__card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--neutral-900);
+  background: linear-gradient(180deg, transparent 0%, var(--blue-900) 50%);
+  opacity: 0.95;
+  pointer-events: none;
+}
+
+.services__card h3 {
+  position: relative;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: var(--blue-50);
+}
+
+.services__card p {
+  position: relative;
+  z-index: 90;
+  color: var(--neutral-300);
+}
+
+#services button {
+  margin: auto;
+  background: var(--neutral-200);
+}
