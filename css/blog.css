@@ -30,24 +30,24 @@
   width: 100%;
   height: 200px;
   border-radius: 0.5rem;
-  /* background-image: url("/img/man.webp"); */
+  /* background-image: url("../img/man.webp"); */
   background-size: cover;
 }
 
 .blog__card:nth-child(1) div {
-  background-image: url("img/bg.jpg");
+  background-image: url("../img/bg.jpg");
 }
 
 .blog__card:nth-child(2) div {
-  background-image: url("img/man.webp");
+  background-image: url("../img/man.webp");
 }
 
 .blog__card:nth-child(3) div {
-  background-image: url("img/man2.jpeg");
+  background-image: url("../img/man2.jpeg");
 }
 
 .blog__card:nth-child(4) div {
-  background-image: url("img/man3.jpg");
+  background-image: url("../img/man3.jpg");
 }
 
 .blog__card h3 {
