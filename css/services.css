@@ -30,21 +30,21 @@
   max-width: 375px;
   padding: 4rem 2.5rem;
   border-radius: 1rem;
-  /* background-image: url("img/man.jpeg"); */
+  /* background-image: url("../img/man.jpeg"); */
   background-size: cover;
   background-position: center;
 }
 
 .services__card:nth-child(1) {
-  background-image: url("img/man2.jpeg");
+  background-image: url("../img/man2.jpeg");
 }
 
 .services__card:nth-child(2) {
-  background-image: url("img/man.webp");
+  background-image: url("../img/man.webp");
 }
 
 .services__card:nth-child(3) {
-  background-image: url("img/man3.jpg");
+  background-image: url("../img/man3.jpg");
 }
 
 .services__card .overlay {
