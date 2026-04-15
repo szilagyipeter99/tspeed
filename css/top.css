@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   min-height: calc(100vh + 3rem);
-  background-image: url("/img/bg.jpg");
+  background-image: url("img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
