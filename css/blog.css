@@ -1,5 +1,6 @@
 #blog {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 #blog h2 {
@@ -16,6 +17,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
+  width: 95%;
   max-width: 1400px;
   margin: auto;
 }
@@ -61,4 +63,11 @@
   font-weight: 700;
   color: var(--blue-900);
   background: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog__row {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
 }

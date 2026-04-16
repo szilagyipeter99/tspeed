@@ -1,5 +1,6 @@
 #services {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 #services h2 {
@@ -16,7 +17,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  max-width: 1400px;
+  max-width: min(1400px, 95%);
   width: fit-content;
   margin: auto;
   margin-bottom: 2rem;
@@ -75,4 +76,10 @@
 #services button {
   margin: auto;
   background: var(--neutral-200);
+}
+
+@media only screen and (max-width: 768px) {
+  .services__row {
+    grid-template-columns: 1fr;
+  }
 }

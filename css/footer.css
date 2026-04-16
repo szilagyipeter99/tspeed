@@ -5,6 +5,7 @@
 }
 
 .footer__row {
+  width: 95%;
   max-width: 1400px;
   margin: auto;
   padding: 0 2rem 3rem;
@@ -66,4 +67,10 @@
   font-size: 1rem;
   font-weight: 400;
   color: var(--neutral-200);
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__row {
+    grid-template-columns: 1fr;
+  }
 }
